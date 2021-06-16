@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    background-color: #557a95;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+	letter-spacing: 2px; 
+}
+#menu li a:hover{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+	letter-spacing: 2px;
+}
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+   background-color: #557a95;
+}
+
+#skills{
+     background-color: #7395ae;
+     height: 120vh;
+}
+
+#html-css{
+  background-color: white;
+  height: 100vh;
+}
+
+#python{
+  background-color: white;
+  height: 100vh;
+}
+
+#python{
+  background-color: white;
+  height: 100vh;
+}
+#contact{
+     background-color: #557a95;
+     height: 60vh;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+	letter-spacing: 2px;
+}
+h1 span{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+	letter-spacing: 10px;
+  background-color: black;
+  padding: 10px;
+  transition: .59s linear;
+}
+h6{
+    position: relative;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: white;
+}
+/*INTRODUCTION*/
+.background1{
+    background-color: white;    
+    background-size: cover;
+    height: 140vh;
+}
+.background1 .intro h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: black;
+}
+.background1 .intro h2 span{
+    text-align: center;
+    color: white;
+    background-color: #557a95;
+    font-size: 100px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.background1 .intro p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+  	letter-spacing: 2px;
+    color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.background1 .works{
+    display: flex;
+    align-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 8%;
+    width: 80%;
+    transition: .5s;
+    cursor: pointer;
+}
+.background1 .works:hover{
+	display: flex;
+    align-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 10%;
+    width: 80%;
+    height: 39%;
+    transition: .5s;
+    cursor: pointer;
+}
+.background1 .works .designs:hover{
+	text-align: center;
+	background-color: #557a95;
+    color: white;
+    border-radius: 10px;
+    transition: .5s;
+}
+.background1 .works h2{
+	font-size: 40px;
+	font-weight: 300;
+  	letter-spacing: 2px;
+	text-align: center;
+}
+.background1 .works p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 80%;
+    font-weight: 300;
+  	letter-spacing: 2px;
+    color: white;
+}
+a button{
+  background-color:#4e4e50;
+  color: #4e4e50;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #4e4e50;
+  text-decoration: none;
+}
+a button:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+   font-weight: 300;
+    letter-spacing: 2px;
+}
+#html-css h2{
+  position: absolute;
+    top: 10%;
+    left: 30%;
+    color: black;
+    font-weight: 300;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+#html-css h2 span{
+  color: white;
+  background-color: #557a95;
+  font-weight: 300;
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+#html-css table td{
+  text-align: center;
+  border-radius: 2px;
+  background-color: transparent;
+  padding: 10px;
+}
+#html-css img{
+  text-align: center;
+  border-radius: 25px;
+}
+#html-css img:hover{
+  text-align: center;
+  border-radius: 25px;
+  border: 3px solid #557a95;
+  transition: .5s;
+}
+#java h2{
+  position: absolute;
+    top: 10%;
+    left: 30%;
+    color: black;
+    font-weight: 300;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+#java h2 span{
+  color: white;
+  background-color: #557a95;
+  font-weight: 300;
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+#java table td{
+  text-align: center;
+  border-radius: 2px;
+  background-color: transparent;
+  padding: 10px;
+}
+#java img{
+  text-align: center;
+  border-radius: 25px;
+}
+#java img:hover{
+  text-align: center;
+  border-radius: 25px;
+  border: 3px solid #557a95;
+  transition: .5s;
+}
+#python h2{
+  position: absolute;
+    top: 10%;
+    left: 30%;
+    color: black;
+    font-weight: 300;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+#python h2 span{
+  color: white;
+  background-color: #557a95;
+  font-weight: 300;
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+#python table td{
+  text-align: center;
+  border-radius: 2px;
+  background-color: transparent;
+  padding: 10px;
+}
+#python img{
+  text-align: center;
+  border-radius: 25px;
+}
+#python img:hover{
+  text-align: center;
+  border-radius: 25px;
+  border: 3px solid #557a95;
+  transition: .5s;
+}
+/*CONTACT*/
+#contact h2{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: white;
+    font-weight: 300;
+    font-size: 60px;
+  	letter-spacing: 2px;
+}
+#contact h2 span{
+	color: white;
+  background-color: black;
+	font-size: 100px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+.contact-info{
+    margin-top: 33vh;
+    display: flex;
+    left: 20vh;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+ .card{
+  padding: 0 20px;
+  margin: 0 10px;
+  width: calc(33% - 20px);
+  height: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+}
+.icon{
+  font-size: 28px;
+  width: 60px;
+  height: 60px; 
+  text-align: center;
+  background: beige;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+.card:hover .icon{
+  background: none;
+  color: black;
+}
+.card p{
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  opacity: 0;
+  color: beige;
+  transition: 0.3s linear;
+}
+.card:hover p{
+  max-height: 40px;
+  opacity: 1;
+}
+
+
+
+
+
+
+
